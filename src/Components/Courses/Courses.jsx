@@ -3,7 +3,7 @@ import { useState } from "react";
 import Course from "../Course/Course";
 import PropTypes from 'prop-types';
 
-const Courses = ({handleSelectedCourse}) => {
+const Courses = ({handleSelectedCourse,finishedCredit}) => {
     const [courses,setCourses]=useState([]);
 
 
@@ -16,7 +16,7 @@ const Courses = ({handleSelectedCourse}) => {
     return (
         <div className="md:w-3/4 md:grid md:grid-cols-3 gap-6"> 
             {
-                courses.map((course,idx)=><Course key={idx} course={course} handleSelectedCourse={handleSelectedCourse}></Course>)
+                courses.map((course,idx)=><Course key={idx} course={course} handleSelectedCourse={handleSelectedCourse} finishedCredit={finishedCredit}></Course>)
             }
 
         </div>
@@ -27,7 +27,8 @@ const Courses = ({handleSelectedCourse}) => {
 Courses.propTypes={
     handleSelectedCourse:PropTypes.func,
     isModalOpen:PropTypes.bool,
-    closeModal:PropTypes.func
+    closeModal:PropTypes.func,
+    finishedCredit:PropTypes.bool
 }
 
 export default Courses;
