@@ -1,0 +1,66 @@
+[
+    {
+      "course": "Introduction to C Programming",
+      "course_details": "Get started with the fundamentals of C programming, including variables, loops, and functions. This course is ideal for beginners looking to build a strong foundation in C.",
+      "image": "https://i.ibb.co/RGFDZCg/Rectangle-2-2.png",
+      "credit": 1,
+      "price": 15000
+    },
+    {
+      "course": "Introduction to Algorithms",
+      "course_details": "Dive into the world of algorithms and data structures. Explore common algorithms and their applications in various problem-solving scenarios. Suitable for aspiring programmers and computer science enthusiasts.",
+      "image": "https://i.ibb.co/wwfmXmv/Rectangle-2-3.png",
+      "credit": 2,
+      "price": 25000
+    },
+    {
+      "course": "Introduction to C++ for DSA",
+      "course_details": "Learn C++ programming with a focus on data structures and algorithms. This course is designed for those preparing for competitive coding and technical interviews.",
+      "image": "https://i.ibb.co/8Bjjq62/Rectangle-2-4.png",
+      "credit": 10,
+      "price": 10000
+    },
+    {
+      "course": "Basic Data Structures",
+      "course_details": "Master the fundamental data structures used in computer science, including arrays, linked lists, stacks, and queues. This course is essential for anyone pursuing a career in software development.",
+      "image": "https://i.ibb.co/4Ss32LY/Rectangle-3.png",
+      "credit": 5,
+      "price": 35000
+    },
+    {
+      "course": "Introduction to OOP Python",
+      "course_details": "Explore object-oriented programming (OOP) concepts in Python. Learn to create classes, objects, and design patterns. Ideal for Python enthusiasts looking to write more structured and reusable code.",
+      "image": "https://i.ibb.co/m5FhQLH/Rectangle-2.png",
+      "credit": 5,
+      "price": 19000
+    },
+    {
+      "course": "Software Engineering",
+      "course_details": "Gain a comprehensive understanding of software engineering principles and practices. Explore software development methodologies, project management, and quality assurance.",
+      "image": "https://i.ibb.co/TkyrYvR/Rectangle-2-5.png",
+      "credit": 2,
+      "price": 23000
+    },
+    {
+      "course": "AWS, Cloud Computing",
+      "course_details": "Learn the essentials of cloud computing with a focus on Amazon Web Services (AWS). Discover how to deploy and manage applications in the cloud, making you a skilled cloud engineer.",
+      "image": "https://i.ibb.co/0mQ4x7H/Rectangle-3-1.png",
+      "credit": 5,
+      "price": 35000
+    },
+    {
+      "course": "Database (MySQL)",
+      "course_details": "Dive into the world of relational databases with MySQL. Learn to design, create, and query databases. Suitable for aspiring database administrators and developers.",
+      "image": "https://i.ibb.co/vdbnYXC/Rectangle-2-1.png",
+      "credit": 5,
+      "price": 19000
+    },
+    {
+      "course": "Problem-Solving Part",
+      "course_details": "Sharpen your problem-solving skills with a variety of programming challenges and puzzles. This course is perfect for those preparing for coding competitions and technical interviews.",
+      "image": "https://i.ibb.co/7vzyWgN/Rectangle-2-6.png",
+      "credit": 2,
+      "price": 23000
+    }
+  ]
+  
