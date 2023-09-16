@@ -25,7 +25,9 @@ const Courses = ({handleSelectedCourse}) => {
 
 
 Courses.propTypes={
-    handleSelectedCourse:PropTypes.func
+    handleSelectedCourse:PropTypes.func,
+    isModalOpen:PropTypes.bool,
+    closeModal:PropTypes.func
 }
 
 export default Courses;

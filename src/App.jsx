@@ -11,7 +11,7 @@ function App() {
 
   const handleSelectedCourse=(course)=>{
     if(selectedCourse.find(item=>item.course_name===course.course_name)){
-      alert('Already exist');
+      document.getElementById('my_modal_1').showModal()
     }
     else{
       setSelectedCourse([...selectedCourse,course]);
