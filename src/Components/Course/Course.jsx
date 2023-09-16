@@ -2,11 +2,10 @@ import PropTypes from 'prop-types';
 import { PiCurrencyDollar } from 'react-icons/pi'
 import { GoBook } from 'react-icons/go'
 
-const Course = ({course}) => {
+const Course = ({course,handleSelectedCourse}) => {
 
     const {image,course_name,course_details,price,credit}=course;
 
-    console.log(course);
     return (
         <div className='drop-shadow-2xl bg-white p-4'>
             <img className='mb-3 w-72' src={image} alt="" />
@@ -22,14 +21,15 @@ const Course = ({course}) => {
                     <p className='text-[#1C1B1B99] text-sm'>Credit: {credit}hr</p>
                 </div>
             </div>
-            <button className='w-full border border-[#2F80ED] bg-[#2F80ED] py-1 rounded-md text-white'>Select</button>
+            <button onClick={()=>handleSelectedCourse(course)} className='w-full border border-[#2F80ED] bg-[#2F80ED] py-1 rounded-md text-white'>Select</button>
         </div>
     );
 };
 
 
 Course.propTypes={
-    course:PropTypes.object
+    course:PropTypes.object,
+    handleSelectedCourse:PropTypes.func
 }
 
 export default Course;
