@@ -14,7 +14,8 @@ function App() {
   const [remainingCredit,setRemainingCredit]=useState(20);
 
   const handleSelectedCourse=(course)=>{
-    if(selectedCourse.find(item=>item.course_name===course.course_name)){
+    if(selectedCourse.find(item=>item.course_name===course.course_name) && totalCredit<20){
+      setFinishedCredit(false);
       document.getElementById('my_modal_1').showModal()
     }
     else{
@@ -25,8 +26,8 @@ function App() {
         setRemainingCredit(remainingCredit-course.credit);
       }
       else{
-        document.getElementById('my_modal_1').showModal();
-        setFinishedCredit(true);
+          setFinishedCredit(true);
+          document.getElementById('my_modal_1').showModal();
       }
     }
   }
